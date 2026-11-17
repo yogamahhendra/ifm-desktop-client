@@ -11,7 +11,8 @@ coverage.out
 
 # Dependencies & frontend builds
 frontend/node_modules/
-frontend/dist/
+frontend/dist/*
+!frontend/dist/.gitkeep
 
 # Operating System files
 .DS_Store
