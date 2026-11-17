@@ -1,0 +1,29 @@
+# Binaries and build artifacts
+build/bin/
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+coverage.out
+
+# Dependencies & frontend builds
+frontend/node_modules/
+frontend/dist/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment & local credentials
+.env
+.env.local
